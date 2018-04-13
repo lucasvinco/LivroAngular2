@@ -1,0 +1,8 @@
+<h2>Two Way Data Binding</h2>
+
+<input type="text" [ngModel]="nome" (ngModelChange)="mudar($event)">
+
+<p>{{nome}}</p>
+
+<input type="text" bindon-ngModel="nome">
+<p>{{nome}}</p>
