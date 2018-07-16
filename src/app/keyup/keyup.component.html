@@ -1,0 +1,4 @@
+<h2>keyup</h2>
+
+<input type="password" #qtdSenha (keyup)="validaSenha(qtdSenha.value)">
+<button [disabled]="!habilitarBotao" (click)="gravarSenha(qtdSenha.value)">Gravar Senha</button>

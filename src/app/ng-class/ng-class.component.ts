@@ -17,4 +17,14 @@ export class NgClassComponent implements OnInit {
   mudarClassBinding(){
     this.valorClassBinding = !this.valorClassBinding;
   }
+
+  classes(): any {
+    let valores = {
+      'cor-fundo': this.valorClassBinding,
+      'cor-letra': this.valorClassBinding,
+      'estilo-letra': this.valorClassBinding,
+      'borda-paragrafo': this.valorClassBinding
+    }
+    return valores;
+  }
 }

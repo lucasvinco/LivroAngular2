@@ -14,6 +14,10 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgSwitchCaseComponent } from './ng-switch-case/ng-switch-case.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
+import { NgStyleComponent } from './ng-style/ng-style.component';
+import { NgContentComponent } from './ng-content/ng-content.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
+import { KeyupComponent } from './keyup/keyup.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { NgClassComponent } from './ng-class/ng-class.component';
     NgIfComponent,
     NgSwitchCaseComponent,
     NgForComponent,
-    NgClassComponent
+    NgClassComponent,
+    NgStyleComponent,
+    NgContentComponent,
+    EventBindingComponent,
+    KeyupComponent
   ],
   imports: [
     BrowserModule,
